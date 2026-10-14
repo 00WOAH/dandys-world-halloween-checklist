@@ -1431,7 +1431,7 @@ export default function App() {
 
         <div className="cheese-banner">
           <img
-            src="/images/extra-cheese-beige-banner.png"
+            src={`${IMAGE_BASE}extra-cheese-beige-banner.png`}
             alt="Cute Extra Cheese-inspired Halloween artwork with a burger-hat mascot, cheese, fries, and pumpkins"
           />
         </div>
