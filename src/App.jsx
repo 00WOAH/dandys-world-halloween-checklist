@@ -6,6 +6,8 @@ const IMAGE_BASE = `${import.meta.env.BASE_URL}images/`;
 
 const ITEMS = [
   // SKINS
+  { id: "shadow-moth", name: "Shadow Moth", category: "Skins", cost: 600, image: `${IMAGE_BASE}shadow-moth.png` },
+  { id: "painted-brain", name: "Painted Brain", category: "Skins", cost: 600, image: `${IMAGE_BASE}painted-brain.png` },
   { id: "toxic-experiment", name: "Toxic Experiment", category: "Skins", cost: 600, image: `${IMAGE_BASE}toxic-experiment.png` },
   { id: "extra-cheese", name: "Extra Cheese", category: "Skins", cost: 600, image: `${IMAGE_BASE}extra-cheese.png` },
   { id: "violet-caster", name: "Violet Caster", category: "Skins", cost: 600, image: `${IMAGE_BASE}violet-caster.png` },
@@ -42,6 +44,11 @@ const ITEMS = [
   { id: "berry-beast", name: "Berry Beast", category: "Skins", cost: 1200, image: `${IMAGE_BASE}berry-beast.png` },
 
   // STICKERS
+  { id: "blackout", name: "Blackout!", category: "Stickers", cost: 250, image: `${IMAGE_BASE}blackout.png` },
+  { id: "how-do-i-look", name: "How Do I Look?", category: "Stickers", cost: 250, image: `${IMAGE_BASE}how-do-i-look.png` },
+  { id: "its-alright", name: "It's Alright", category: "Stickers", cost: 250, image: `${IMAGE_BASE}its-alright.png` },
+  { id: "who-me", name: "Who, Me?", category: "Stickers", cost: 250, image: `${IMAGE_BASE}who-me.png` },
+  { id: "youre-welcome", name: "You're Welcome", category: "Stickers", cost: 250, image: `${IMAGE_BASE}youre-welcome.png` },
   { id: "got-tricked", name: "Got tricked.", category: "Stickers", cost: 250, image: `${IMAGE_BASE}got-tricked.png` },
   { id: "i-cant-find-you", name: "I Can't Find You!", category: "Stickers", cost: 250, image: `${IMAGE_BASE}i-cant-find-you.png` },
   { id: "looking-good", name: "Looking Good!", category: "Stickers", cost: 250, image: `${IMAGE_BASE}looking-good.png` },
@@ -63,6 +70,8 @@ const ITEMS = [
   { id: "gourdy", name: "Gourdy", category: "Toons", cost: 3000, image: `${IMAGE_BASE}gourdy.png` },
 
   // STAMPS
+  { id: "trick-or-treat", name: "Trick Or Treat!", category: "Stamps", cost: 1200, image: `${IMAGE_BASE}trick-or-treat.png` },
+  { id: "gardenview-halloween", name: "Gardenview Halloween", category: "Stamps", cost: 800, image: `${IMAGE_BASE}gardenview-halloween.png` },
   { id: "eclipse-pattern", name: "Eclipse Pattern", category: "Stamps", cost: 400, image: `${IMAGE_BASE}eclipse-pattern.png` },
   { id: "gourdy-pattern", name: "Gourdy Pattern", category: "Stamps", cost: 400, image: `${IMAGE_BASE}gourdy-pattern.png` },
   { id: "ribecca-pattern", name: "Ribecca Pattern", category: "Stamps", cost: 400, image: `${IMAGE_BASE}ribecca-pattern.png` },
