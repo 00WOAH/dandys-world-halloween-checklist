@@ -6,6 +6,9 @@ const IMAGE_BASE = `${import.meta.env.BASE_URL}images/`;
 
 const ITEMS = [
   // SKINS
+  { id: "web-weaver", name: "Web Weaver", category: "Skins", cost: 600, image: `${IMAGE_BASE}web-weaver.png` },
+  { id: "batty-shade", name: "Batty Shade", category: "Skins", cost: 600, image: `${IMAGE_BASE}batty-shade.png` },
+  { id: "curious-stranger", name: "Curious Stranger", category: "Skins", cost: 600, image: `${IMAGE_BASE}curious-stranger.png` },
   { id: "shadow-moth", name: "Shadow Moth", category: "Skins", cost: 600, image: `${IMAGE_BASE}shadow-moth.png` },
   { id: "painted-brain", name: "Painted Brain", category: "Skins", cost: 600, image: `${IMAGE_BASE}painted-brain.png` },
   { id: "toxic-experiment", name: "Toxic Experiment", category: "Skins", cost: 600, image: `${IMAGE_BASE}toxic-experiment.png` },
